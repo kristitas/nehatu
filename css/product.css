@@ -1,0 +1,164 @@
+body {
+  background: #9abca7;
+  font-family: 'Archivo';
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Archivo';
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: 'Archivo';
+  color: #272838;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: 'Archivo';
+  color: #272838;
+}
+
+p {
+  color: #272838;
+  font-size: 16px;
+}
+
+#title {
+  background-color: #9abca7;
+}
+
+.header {
+  padding: 3% 3% 2%;
+}
+
+.container-fluid {
+  padding-bottom: 2%;
+  font-size: 14px;
+}
+
+.product-card {
+  padding: 2% 5% 2%;
+  background-color: #f3f3f3;
+}
+
+.navbar {
+  padding: 0 3%;
+}
+
+.navbar-brand {
+  font-family: 'Archivo';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 7px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Archivo';
+  color: #fff !important;
+}
+
+.dropdown-menu {
+  font-size: 1.2rem;
+  font-family: 'Archivo';
+  background-color: #9abca7
+}
+
+.dropdown-item {
+  font-family: 'Archivo';
+  color: #fff;
+}
+
+.card-info {
+  padding: 0 3%;
+}
+
+footer {
+  padding: 4px 4px;
+  text-align: center;
+  background-color: #f5b841;
+  color: #fff;
+}
+
+.footer-text {
+  color: #fff;
+}
+
+.fa-star {
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.btn {
+  border: 3px solid #f5b841;
+  background-color: #fff;
+  color: #272838;
+  font-family: 'Archivo';
+  font-weight: bold;
+  height: 50px;
+}
+
+#press {
+  background-color: #9abca7;
+  text-align: center;
+  padding: 3%;
+}
+
+.newsletter {
+  font-family: 'Archivo';
+  height: 200px;
+  padding: 20px;
+  background: #9abca7;
+}
+
+.newsletter .content {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.newsletter .content h3 {
+  color: #272838;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.newsletter .content .form-control {
+  height: 50px;
+  border-color: #fff;
+  border-radius: 0;
+}
+
+.sub-btn {
+  width: 50px;
+  min-height: 50px;
+  border-radius: 0;
+  background: #272838;
+  color: #fff;
+}
+
+.detail-banner {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.card {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, .2);
+  padding: 10px;
+  transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
